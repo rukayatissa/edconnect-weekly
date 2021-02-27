@@ -48,32 +48,48 @@
         </section>
       
         <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
+            
+              
         <h4 class="h3 mb-3 font-weight-strong" style="margin-top: 50px;">Edit Project</h4>   
          <form name='editProject'>
+             <div class="row">
+                <div class="col">
         <div class="form-group">
         <label class="form-label"> Project Name:</label>
         <input  class="form-control"type='text' name='name'/>
+        </div>
+        <div class="form-group">
         <label class="form-label">Project Abstract:</label>
         <textarea class="form-control" type='text' name='abstract'></textarea>
+        </div>
+        <div class="form-group">
         <label class="form-label">Authors:</label>
         <input  class="form-control" type='text' name='authors'/>
+        </div>
+        <div class="form-group">
         <label class="form-label">Tag(s):</label>
         <input  class="form-control"type='text' name='tags'/>
-        <button class="btn btn-primary" type="submit">Save</button>
+    
+        <button class="btn btn-primary" type="submit">Save</button>  
+        </div>  
+                </div>    
     </form>
-</div>
-<div class="col-md-6">
+
+    
     <h4 class="h3 mb-3 font-weight-strong" style="margin-top: 50px;">Manage Project Files</h4>
     <form>
-        <div class="form-group">
+        <div class="row">
+        <div class="form-group col">
                 <input type="text" class="form-control flex-nowrap" id="inlineFormInputSearch" placeholder="Click to open file browser">
-                <div class="input-group-">
+                <div class="col">
                     <button class="btn btn-outline-dark" type="submit">Browse</button>
                 </div>
         </div>
+        </div>
+        
+        
+    </form>
+        
          <br>
         
         <div class="card">
@@ -84,12 +100,6 @@
               <p class="card-text">No files uploaded yet</p>
             </div>
         </div>
-    </div>
-         
-
-    </form>
-</div>
-                    </div>
         </section>
     </main>
 </body>
